@@ -67,7 +67,7 @@ Common Lisp
 
 Ruby
 ----
-- [GitHub's markdown](https://github.com/tanoku/redcarpet)
+- [GitHub's markdown](https://github.com/vmg/redcarpet)
 - [Maruku](http://maruku.rubyforge.org/)
 - [BlueCloth](http://deveiate.org/projects/BlueCloth)
 - [Discount for Ruby](https://github.com/rtomayko/rdiscount#readme)
