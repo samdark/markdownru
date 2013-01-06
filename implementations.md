@@ -57,6 +57,7 @@ JavaScript
 ----------
 - http://www.attacklab.net/showdown-gui.html
 - http://www.dema.ru/markdown/
+- [marked](https://github.com/chjj/marked/)
 
 Common Lisp
 -----------
