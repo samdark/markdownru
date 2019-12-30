@@ -1,0 +1,52 @@
+{
+    "name": "samdark/markdownru",
+    "description": "markdown.ru website",
+    "type": "project",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Alexander Makarov",
+            "email": "sam@rmcreative.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4",
+        "cebe/markdown": "~1.2.1",
+        "hiqdev/composer-config-plugin": "^1.0@dev",
+        "nyholm/psr7": "^1.0@dev",
+        "yiisoft/di": "dev-master",
+        "yiisoft/event-dispatcher": "^3.0@dev",
+        "yiisoft/log": "^3.0@dev",
+        "yiisoft/log-target-file": "^3.0@dev",
+        "yiisoft/router": "^3.0@dev",
+        "yiisoft/router-fastroute": "^3.0@dev",
+        "yiisoft/view": "^3.0@dev",
+        "yiisoft/yii-web": "^3.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "extra": {
+         "config-plugin": {
+             "common": "config/common.php",
+             "params": [
+                 "config/params.php",
+                 "?config/params-local.php"
+             ],
+             "web": [
+                 "$common",
+                 "config/web.php"
+             ],
+             "console": [
+                 "$common",
+                 "config/console.php"
+             ]
+         }
+     },
+    "config": {
+        "sort-packages": true
+    }
+}

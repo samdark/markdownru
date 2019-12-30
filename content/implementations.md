@@ -1,5 +1,4 @@
-Существующие реализации markdown
-================================
+# Существующие реализации markdown
 
 Perl
 ----
@@ -10,6 +9,10 @@ Perl
 
 PHP
 ---
+
+- [Cebe markdown](https://github.com/cebe/markdown)
+- [Parsedown](https://github.com/erusev/parsedown)
+- [Ciconia](https://github.com/kzykhys/Ciconia)
 - [PHP markdown extra](http://michelf.com/projects/php-markdown/extra/)
 - [PECL](http://pecl.php.net/package/markdown)
 - [markdown для Drupal](http://drupal.org/project/markdown)
