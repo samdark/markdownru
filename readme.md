@@ -2,4 +2,4 @@
 
 markdown.ru is a Russian website about markdown.
 
-Content is in [`/markdown` directory](markdown/index.md). 
+Content is in [`/content` directory](content/index.md). 
