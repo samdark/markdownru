@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "645d1f6a1db736286f1d572e0fb6a6fb",
+    "content-hash": "2be86a68466bca873a2d57236a4d3ba4",
     "packages": [
         {
             "name": "alexkart/curl-builder",
@@ -46,20 +46,24 @@
                 }
             ],
             "description": "PSR-7 compatible curl builder.",
+            "support": {
+                "issues": "https://github.com/alexkart/curl-builder/issues",
+                "source": "https://github.com/alexkart/curl-builder/tree/master"
+            },
             "time": "2019-09-30T08:22:14+00:00"
         },
         {
             "name": "cebe/markdown",
-            "version": "dev-master",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cebe/markdown.git",
-                "reference": "eeb1bf622e80f337479e00a5db94c56e7cf1326b"
+                "reference": "9bac5e971dd391e2802dca5400bbeacbaea9eb86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cebe/markdown/zipball/eeb1bf622e80f337479e00a5db94c56e7cf1326b",
-                "reference": "eeb1bf622e80f337479e00a5db94c56e7cf1326b",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/9bac5e971dd391e2802dca5400bbeacbaea9eb86",
+                "reference": "9bac5e971dd391e2802dca5400bbeacbaea9eb86",
                 "shasum": ""
             },
             "require": {
@@ -106,100 +110,24 @@
                 "markdown",
                 "markdown-extra"
             ],
-            "time": "2018-12-10T09:41:35+00:00"
-        },
-        {
-            "name": "hiqdev/composer-config-plugin",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hiqdev/composer-config-plugin.git",
-                "reference": "d038a308ecbfa3acfa06bdfac9461d2fcdfd49da"
+            "support": {
+                "issues": "https://github.com/cebe/markdown/issues",
+                "source": "https://github.com/cebe/markdown"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hiqdev/composer-config-plugin/zipball/d038a308ecbfa3acfa06bdfac9461d2fcdfd49da",
-                "reference": "d038a308ecbfa3acfa06bdfac9461d2fcdfd49da",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0",
-                "opis/closure": "^3.3",
-                "php": ">=7.1",
-                "riimu/kit-phpencoder": "^2.4"
-            },
-            "require-dev": {
-                "composer/composer": "~1.0@dev",
-                "phpunit/phpunit": "^7.0"
-            },
-            "suggest": {
-                "symfony/yaml": "^2.0 || ^3.0 || ^4.0 for YAML files support",
-                "vlucas/phpdotenv": "^2.0 for `.env` files support"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "hiqdev\\composer\\config\\Plugin",
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "hiqdev\\composer\\config\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Andrii Vasyliev",
-                    "email": "sol@hiqdev.com",
-                    "homepage": "http://hipanel.com/",
-                    "role": "Project lead"
-                },
-                {
-                    "name": "Dmitry Naumenko",
-                    "email": "d.naumenko.a@gmail.com",
-                    "homepage": "http://silverfire.me/",
-                    "role": "Lead backend developer"
-                },
-                {
-                    "name": "Andrey Klochok",
-                    "email": "andreyklochok@gmail.com",
-                    "homepage": "http://hiqdev.com/",
-                    "role": "Lead frontend developer"
-                },
-                {
-                    "name": "Yuriy Myronchuk",
-                    "email": "bladeroot@gmail.com",
-                    "homepage": "http://hiqdev.com/",
-                    "role": "QA Lead"
-                }
-            ],
-            "description": "Composer plugin for config assembling",
-            "homepage": "https://github.com/hiqdev/composer-config-plugin",
-            "keywords": [
-                "assembling",
-                "composer",
-                "config",
-                "plugin"
-            ],
-            "time": "2019-12-18T14:04:35+00:00"
+            "time": "2018-03-26T11:24:36+00:00"
         },
         {
             "name": "nikic/fast-route",
-            "version": "v1.x-dev",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/FastRoute.git",
-                "reference": "4012884e0b916e1bd895a5061d4abc3c99e283a4"
+                "reference": "181d480e08d9476e61381e04a71b34dc0432e812"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/4012884e0b916e1bd895a5061d4abc3c99e283a4",
-                "reference": "4012884e0b916e1bd895a5061d4abc3c99e283a4",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/181d480e08d9476e61381e04a71b34dc0432e812",
+                "reference": "181d480e08d9476e61381e04a71b34dc0432e812",
                 "shasum": ""
             },
             "require": {
@@ -232,20 +160,24 @@
                 "router",
                 "routing"
             ],
-            "time": "2019-12-20T12:15:33+00:00"
+            "support": {
+                "issues": "https://github.com/nikic/FastRoute/issues",
+                "source": "https://github.com/nikic/FastRoute/tree/master"
+            },
+            "time": "2018-02-13T20:26:39+00:00"
         },
         {
             "name": "nyholm/psr7",
-            "version": "1.2.1",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nyholm/psr7.git",
-                "reference": "55ff6b76573f5b242554c9775792bd59fb52e11c"
+                "reference": "c17f4f73985f62054a331cbc4ffdf9868c4ef256"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nyholm/psr7/zipball/55ff6b76573f5b242554c9775792bd59fb52e11c",
-                "reference": "55ff6b76573f5b242554c9775792bd59fb52e11c",
+                "url": "https://api.github.com/repos/Nyholm/psr7/zipball/c17f4f73985f62054a331cbc4ffdf9868c4ef256",
+                "reference": "c17f4f73985f62054a331cbc4ffdf9868c4ef256",
                 "shasum": ""
             },
             "require": {
@@ -260,8 +192,9 @@
             },
             "require-dev": {
                 "http-interop/http-factory-tests": "dev-master",
-                "php-http/psr7-integration-tests": "dev-master",
-                "phpunit/phpunit": "^7.5"
+                "php-http/psr7-integration-tests": "^1.0",
+                "phpunit/phpunit": "^7.5",
+                "symfony/error-handler": "^4.4"
             },
             "type": "library",
             "extra": {
@@ -294,20 +227,34 @@
                 "psr-17",
                 "psr-7"
             ],
-            "time": "2019-09-05T13:24:16+00:00"
+            "support": {
+                "issues": "https://github.com/Nyholm/psr7/issues",
+                "source": "https://github.com/Nyholm/psr7/tree/master"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Zegnat",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nyholm",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-05-23T11:29:07+00:00"
         },
         {
             "name": "opis/closure",
-            "version": "dev-master",
+            "version": "3.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opis/closure.git",
-                "reference": "c37b40d59d9afffc2e5e958e2e5ccdb08634f81d"
+                "reference": "1d0deef692f66dae5d70663caee2867d0971306b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opis/closure/zipball/c37b40d59d9afffc2e5e958e2e5ccdb08634f81d",
-                "reference": "c37b40d59d9afffc2e5e958e2e5ccdb08634f81d",
+                "url": "https://api.github.com/repos/opis/closure/zipball/1d0deef692f66dae5d70663caee2867d0971306b",
+                "reference": "1d0deef692f66dae5d70663caee2867d0971306b",
                 "shasum": ""
             },
             "require": {
@@ -355,20 +302,24 @@
                 "serialization",
                 "serialize"
             ],
-            "time": "2019-12-21T12:58:57+00:00"
+            "support": {
+                "issues": "https://github.com/opis/closure/issues",
+                "source": "https://github.com/opis/closure/tree/master"
+            },
+            "time": "2020-06-07T11:41:29+00:00"
         },
         {
             "name": "php-http/message-factory",
-            "version": "dev-master",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/message-factory.git",
-                "reference": "597f30e6dfd32a85fd7dbe58cb47554b5bad910e"
+                "reference": "a478cb11f66a6ac48d8954216cfed9aa06a501a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/message-factory/zipball/597f30e6dfd32a85fd7dbe58cb47554b5bad910e",
-                "reference": "597f30e6dfd32a85fd7dbe58cb47554b5bad910e",
+                "url": "https://api.github.com/repos/php-http/message-factory/zipball/a478cb11f66a6ac48d8954216cfed9aa06a501a1",
+                "reference": "a478cb11f66a6ac48d8954216cfed9aa06a501a1",
                 "shasum": ""
             },
             "require": {
@@ -405,7 +356,11 @@
                 "stream",
                 "uri"
             ],
-            "time": "2018-12-06T18:41:41+00:00"
+            "support": {
+                "issues": "https://github.com/php-http/message-factory/issues",
+                "source": "https://github.com/php-http/message-factory/tree/master"
+            },
+            "time": "2015-12-19T14:08:53+00:00"
         },
         {
             "name": "psr/container",
@@ -454,6 +409,10 @@
                 "container-interop",
                 "psr"
             ],
+            "support": {
+                "issues": "https://github.com/php-fig/container/issues",
+                "source": "https://github.com/php-fig/container/tree/master"
+            },
             "time": "2017-02-14T16:28:37+00:00"
         },
         {
@@ -500,11 +459,15 @@
                 "psr",
                 "psr-14"
             ],
+            "support": {
+                "issues": "https://github.com/php-fig/event-dispatcher/issues",
+                "source": "https://github.com/php-fig/event-dispatcher/tree/1.0.0"
+            },
             "time": "2019-01-08T18:20:26+00:00"
         },
         {
             "name": "psr/http-factory",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-factory.git",
@@ -552,20 +515,23 @@
                 "request",
                 "response"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/http-factory/tree/master"
+            },
             "time": "2019-04-30T12:38:16+00:00"
         },
         {
             "name": "psr/http-message",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "efd67d1dc14a7ef4fc4e518e7dee91c271d524e4"
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/efd67d1dc14a7ef4fc4e518e7dee91c271d524e4",
-                "reference": "efd67d1dc14a7ef4fc4e518e7dee91c271d524e4",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
                 "shasum": ""
             },
             "require": {
@@ -602,20 +568,23 @@
                 "request",
                 "response"
             ],
-            "time": "2019-08-29T13:16:46+00:00"
+            "support": {
+                "source": "https://github.com/php-fig/http-message/tree/master"
+            },
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/http-server-handler",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-server-handler.git",
-                "reference": "f981eec4f9870ace3ee8ada18c88a59461080cba"
+                "reference": "aff2f80e33b7f026ec96bb42f63242dc50ffcae7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-server-handler/zipball/f981eec4f9870ace3ee8ada18c88a59461080cba",
-                "reference": "f981eec4f9870ace3ee8ada18c88a59461080cba",
+                "url": "https://api.github.com/repos/php-fig/http-server-handler/zipball/aff2f80e33b7f026ec96bb42f63242dc50ffcae7",
+                "reference": "aff2f80e33b7f026ec96bb42f63242dc50ffcae7",
                 "shasum": ""
             },
             "require": {
@@ -655,20 +624,24 @@
                 "response",
                 "server"
             ],
-            "time": "2019-06-07T16:00:12+00:00"
+            "support": {
+                "issues": "https://github.com/php-fig/http-server-handler/issues",
+                "source": "https://github.com/php-fig/http-server-handler/tree/master"
+            },
+            "time": "2018-10-30T16:46:14+00:00"
         },
         {
             "name": "psr/http-server-middleware",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-server-middleware.git",
-                "reference": "780c6808074df604f30fc72bb6aaa889f1ff10e9"
+                "reference": "2296f45510945530b9dceb8bcedb5cb84d40c5f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-server-middleware/zipball/780c6808074df604f30fc72bb6aaa889f1ff10e9",
-                "reference": "780c6808074df604f30fc72bb6aaa889f1ff10e9",
+                "url": "https://api.github.com/repos/php-fig/http-server-middleware/zipball/2296f45510945530b9dceb8bcedb5cb84d40c5f5",
+                "reference": "2296f45510945530b9dceb8bcedb5cb84d40c5f5",
                 "shasum": ""
             },
             "require": {
@@ -708,20 +681,24 @@
                 "request",
                 "response"
             ],
-            "time": "2019-05-23T18:10:42+00:00"
+            "support": {
+                "issues": "https://github.com/php-fig/http-server-middleware/issues",
+                "source": "https://github.com/php-fig/http-server-middleware/tree/master"
+            },
+            "time": "2018-10-30T17:12:04+00:00"
         },
         {
             "name": "psr/log",
-            "version": "dev-master",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "5628725d0e4d687e29575eb41f9d5ee7de33a84c"
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/5628725d0e4d687e29575eb41f9d5ee7de33a84c",
-                "reference": "5628725d0e4d687e29575eb41f9d5ee7de33a84c",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
                 "shasum": ""
             },
             "require": {
@@ -755,7 +732,10 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2019-11-12T16:45:05+00:00"
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/1.1.3"
+            },
+            "time": "2020-03-23T09:12:05+00:00"
         },
         {
             "name": "riimu/kit-phpencoder",
@@ -806,7 +786,807 @@
                 "generator",
                 "variable"
             ],
+            "support": {
+                "issues": "https://github.com/Riimu/Kit-PHPEncoder/issues",
+                "source": "https://github.com/Riimu/Kit-PHPEncoder/tree/master"
+            },
             "time": "2018-07-03T12:46:23+00:00"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v5.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "0f0a271bc9b7d02a053d36fcdcb12662e2a8096e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/0f0a271bc9b7d02a053d36fcdcb12662e2a8096e",
+                "reference": "0f0a271bc9b7d02a053d36fcdcb12662e2a8096e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php73": "^1.8",
+                "symfony/polyfill-php80": "^1.15",
+                "symfony/service-contracts": "^1.1|^2",
+                "symfony/string": "^5.1"
+            },
+            "conflict": {
+                "symfony/dependency-injection": "<4.4",
+                "symfony/dotenv": "<5.1",
+                "symfony/event-dispatcher": "<4.4",
+                "symfony/lock": "<4.4",
+                "symfony/process": "<4.4"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "^4.4|^5.0",
+                "symfony/dependency-injection": "^4.4|^5.0",
+                "symfony/event-dispatcher": "^4.4|^5.0",
+                "symfony/lock": "^4.4|^5.0",
+                "symfony/process": "^4.4|^5.0",
+                "symfony/var-dumper": "^4.4|^5.0"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/lock": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Console\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/console/tree/v5.1.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-06-07T19:47:44+00:00"
+        },
+        {
+            "name": "symfony/event-dispatcher-contracts",
+            "version": "v2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/event-dispatcher-contracts.git",
+                "reference": "405952c4e90941a17e52ef7489a2bd94870bb290"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/405952c4e90941a17e52ef7489a2bd94870bb290",
+                "reference": "405952c4e90941a17e52ef7489a2bd94870bb290",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "psr/event-dispatcher": "^1"
+            },
+            "suggest": {
+                "symfony/event-dispatcher-implementation": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\EventDispatcher\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Generic abstractions related to dispatching event",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/master"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-20T17:43:50+00:00"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.17.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "e94c8b1bbe2bc77507a1056cdb06451c75b427f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e94c8b1bbe2bc77507a1056cdb06451c75b427f9",
+                "reference": "e94c8b1bbe2bc77507a1056cdb06451c75b427f9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.17-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.17.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-12T16:14:59+00:00"
+        },
+        {
+            "name": "symfony/polyfill-intl-grapheme",
+            "version": "v1.17.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
+                "reference": "e094b0770f7833fdf257e6ba4775be4e258230b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/e094b0770f7833fdf257e6ba4775be4e258230b2",
+                "reference": "e094b0770f7833fdf257e6ba4775be4e258230b2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-intl": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.17-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Grapheme\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for intl's grapheme_* functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "grapheme",
+                "intl",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.17.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-12T16:47:27+00:00"
+        },
+        {
+            "name": "symfony/polyfill-intl-normalizer",
+            "version": "v1.17.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
+                "reference": "1357b1d168eb7f68ad6a134838e46b0b159444a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/1357b1d168eb7f68ad6a134838e46b0b159444a9",
+                "reference": "1357b1d168eb7f68ad6a134838e46b0b159444a9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-intl": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.17-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for intl's Normalizer class and related functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "intl",
+                "normalizer",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.17.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-12T16:14:59+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.17.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "fa79b11539418b02fc5e1897267673ba2c19419c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fa79b11539418b02fc5e1897267673ba2c19419c",
+                "reference": "fa79b11539418b02fc5e1897267673ba2c19419c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.17-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.17.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-12T16:47:27+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php73",
+            "version": "v1.17.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php73.git",
+                "reference": "a760d8964ff79ab9bf057613a5808284ec852ccc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/a760d8964ff79ab9bf057613a5808284ec852ccc",
+                "reference": "a760d8964ff79ab9bf057613a5808284ec852ccc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.17-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php73\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php73/tree/master"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-12T16:47:27+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php80",
+            "version": "v1.17.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php80.git",
+                "reference": "5e30b2799bc1ad68f7feb62b60a73743589438dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/5e30b2799bc1ad68f7feb62b60a73743589438dd",
+                "reference": "5e30b2799bc1ad68f7feb62b60a73743589438dd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.17-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ion Bazan",
+                    "email": "ion.bazan@gmail.com"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.17.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-12T16:47:27+00:00"
+        },
+        {
+            "name": "symfony/service-contracts",
+            "version": "v2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/service-contracts.git",
+                "reference": "66a8f0957a3ca54e4f724e49028ab19d75a8918b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/66a8f0957a3ca54e4f724e49028ab19d75a8918b",
+                "reference": "66a8f0957a3ca54e4f724e49028ab19d75a8918b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "psr/container": "^1.0"
+            },
+            "suggest": {
+                "symfony/service-implementation": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\Service\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Generic abstractions related to writing services",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/service-contracts/tree/v2.1.2"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-20T17:43:50+00:00"
+        },
+        {
+            "name": "symfony/string",
+            "version": "v5.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/string.git",
+                "reference": "ac70459db781108db7c6d8981dd31ce0e29e3298"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/string/zipball/ac70459db781108db7c6d8981dd31ce0e29e3298",
+                "reference": "ac70459db781108db7c6d8981dd31ce0e29e3298",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-ctype": "~1.8",
+                "symfony/polyfill-intl-grapheme": "~1.0",
+                "symfony/polyfill-intl-normalizer": "~1.0",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php80": "~1.15"
+            },
+            "require-dev": {
+                "symfony/error-handler": "^4.4|^5.0",
+                "symfony/http-client": "^4.4|^5.0",
+                "symfony/translation-contracts": "^1.1|^2",
+                "symfony/var-exporter": "^4.4|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\String\\": ""
+                },
+                "files": [
+                    "Resources/functions.php"
+                ],
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony String component",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "grapheme",
+                "i18n",
+                "string",
+                "unicode",
+                "utf-8",
+                "utf8"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/string/tree/v5.1.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-06-11T12:16:36+00:00"
         },
         {
             "name": "yiisoft/access",
@@ -814,12 +1594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/access.git",
-                "reference": "917e8effdb1b8b53d0d4ec54a2fa7890162c9509"
+                "reference": "0cb215badc36af54f5e8a7ad91d14b76e082f0ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/access/zipball/917e8effdb1b8b53d0d4ec54a2fa7890162c9509",
-                "reference": "917e8effdb1b8b53d0d4ec54a2fa7890162c9509",
+                "url": "https://api.github.com/repos/yiisoft/access/zipball/0cb215badc36af54f5e8a7ad91d14b76e082f0ce",
+                "reference": "0cb215badc36af54f5e8a7ad91d14b76e082f0ce",
                 "shasum": ""
             },
             "require": {
@@ -846,34 +1626,46 @@
                 "rbac",
                 "yii"
             ],
-            "time": "2019-12-05T00:03:32+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/access/issues",
+                "source": "https://github.com/yiisoft/access",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-03T12:36:30+00:00"
         },
         {
             "name": "yiisoft/aliases",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/aliases.git",
-                "reference": "357b614539eabc1fbc08ad086aa7b1f5f987c8a9"
+                "reference": "a8fac436baf94995641aa0cd801a0825c5131f34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/aliases/zipball/357b614539eabc1fbc08ad086aa7b1f5f987c8a9",
-                "reference": "357b614539eabc1fbc08ad086aa7b1f5f987c8a9",
+                "url": "https://api.github.com/repos/yiisoft/aliases/zipball/a8fac436baf94995641aa0cd801a0825c5131f34",
+                "reference": "a8fac436baf94995641aa0cd801a0825c5131f34",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.4"
+                "phpunit/phpunit": "^9.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Yiisoft\\Aliases\\": "src"
@@ -883,12 +1675,29 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "description": "Aliases",
+            "description": "Named paths and URLs storage",
             "homepage": "http://www.yiiframework.com/",
             "keywords": [
                 "alias"
             ],
-            "time": "2019-12-06T16:39:38+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/aliases/issues?state=open",
+                "source": "https://github.com/yiisoft/aliases",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-06T22:26:45+00:00"
         },
         {
             "name": "yiisoft/arrays",
@@ -896,20 +1705,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/arrays.git",
-                "reference": "a809b1957e05b8f96f9f647d1a102e493b59b93c"
+                "reference": "22796991f3e9664b6c1f8d167c82abb71d961eb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/arrays/zipball/a809b1957e05b8f96f9f647d1a102e493b59b93c",
-                "reference": "a809b1957e05b8f96f9f647d1a102e493b59b93c",
+                "url": "https://api.github.com/repos/yiisoft/arrays/zipball/22796991f3e9664b6c1f8d167c82abb71d961eb3",
+                "reference": "22796991f3e9664b6c1f8d167c82abb71d961eb3",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.4",
+                "php": "^7.4 || ^8.0",
                 "yiisoft/strings": "^3.0@dev"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.4"
+                "phpunit/phpunit": "^9.0"
             },
             "type": "library",
             "extra": {
@@ -933,7 +1742,24 @@
                 "helper",
                 "yii"
             ],
-            "time": "2019-12-06T16:40:00+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/arrays/issues",
+                "source": "https://github.com/yiisoft/arrays",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-04T17:19:57+00:00"
         },
         {
             "name": "yiisoft/auth",
@@ -941,12 +1767,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/auth.git",
-                "reference": "1e1d92161e30dbeb4e5728b6c0cb617eabb7d3e5"
+                "reference": "f2cda3f56bec955ffd44d43748f8e002da83d003"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/auth/zipball/1e1d92161e30dbeb4e5728b6c0cb617eabb7d3e5",
-                "reference": "1e1d92161e30dbeb4e5728b6c0cb617eabb7d3e5",
+                "url": "https://api.github.com/repos/yiisoft/auth/zipball/f2cda3f56bec955ffd44d43748f8e002da83d003",
+                "reference": "f2cda3f56bec955ffd44d43748f8e002da83d003",
                 "shasum": ""
             },
             "require": {
@@ -958,10 +1784,10 @@
                 "yiisoft/strings": "^3.0@dev"
             },
             "require-dev": {
-                "hiqdev/composer-config-plugin": "^1.0@dev",
                 "nyholm/psr7": "^1.0",
-                "phan/phan": "^2.2",
-                "phpunit/phpunit": "^8.4"
+                "phan/phan": "^3.0",
+                "phpunit/phpunit": "^9.0",
+                "yiisoft/composer-config-plugin": "^1.0@dev"
             },
             "type": "library",
             "extra": {
@@ -984,7 +1810,97 @@
                 "auth",
                 "middleware"
             ],
-            "time": "2019-12-06T16:39:40+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/auth/issues?state=open",
+                "source": "https://github.com/yiisoft/auth",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-05T22:24:38+00:00"
+        },
+        {
+            "name": "yiisoft/composer-config-plugin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/composer-config-plugin.git",
+                "reference": "e85357ca2d46825a02c983d2f09a0a973ca80b7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/composer-config-plugin/zipball/e85357ca2d46825a02c983d2f09a0a973ca80b7e",
+                "reference": "e85357ca2d46825a02c983d2f09a0a973ca80b7e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0|^2.0",
+                "ext-json": "*",
+                "opis/closure": "^3.5.2",
+                "php": "^7.4",
+                "riimu/kit-phpencoder": "^2.4",
+                "yiisoft/arrays": "3.0.x-dev"
+            },
+            "require-dev": {
+                "composer/composer": "~1.0@dev",
+                "phpunit/phpunit": "^9.0"
+            },
+            "suggest": {
+                "symfony/yaml": "^2.0 || ^3.0 || ^4.0 for YAML files support",
+                "vlucas/phpdotenv": "^2.0 for `.env` files support"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Yiisoft\\Composer\\Config\\ComposerEventHandler",
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Yiisoft\\Composer\\Config\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Composer plugin for config assembling",
+            "homepage": "https://github.com/yiisoft/composer-config-plugin",
+            "keywords": [
+                "assembling",
+                "composer",
+                "config",
+                "plugin"
+            ],
+            "support": {
+                "forum": "https://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/composer-config-plugin/issues?state=open",
+                "source": "https://github.com/yiisoft/composer-config-plugin",
+                "wiki": "https://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-15T06:23:26+00:00"
         },
         {
             "name": "yiisoft/di",
@@ -992,12 +1908,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/di.git",
-                "reference": "253389d0f036e0b84a463d483ef152c76549c807"
+                "reference": "e2a633aaa9419a971290e4a1faa72b95a278274a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/di/zipball/253389d0f036e0b84a463d483ef152c76549c807",
-                "reference": "253389d0f036e0b84a463d483ef152c76549c807",
+                "url": "https://api.github.com/repos/yiisoft/di/zipball/e2a633aaa9419a971290e4a1faa72b95a278274a",
+                "reference": "e2a633aaa9419a971290e4a1faa72b95a278274a",
                 "shasum": ""
             },
             "require": {
@@ -1010,8 +1926,9 @@
                 "psr/container-implementation": "1.0.0"
             },
             "require-dev": {
-                "phpbench/phpbench": "^0.14.0",
-                "phpunit/phpunit": "^8.4",
+                "league/container": "^3.2",
+                "phpbench/phpbench": "^0.17.0",
+                "phpunit/phpunit": "^9.0",
                 "squizlabs/php_codesniffer": "^3.3"
             },
             "type": "library",
@@ -1040,7 +1957,24 @@
                 "injection",
                 "injector"
             ],
-            "time": "2019-12-06T16:39:32+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/di/issues?state=open",
+                "source": "https://github.com/yiisoft/di",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-08T12:16:52+00:00"
         },
         {
             "name": "yiisoft/event-dispatcher",
@@ -1048,12 +1982,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/event-dispatcher.git",
-                "reference": "a6a812084456c0a1b37c8101977076503fc503db"
+                "reference": "b2370dcea3f5b54c6f381c786a71f453267bfbed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/event-dispatcher/zipball/a6a812084456c0a1b37c8101977076503fc503db",
-                "reference": "a6a812084456c0a1b37c8101977076503fc503db",
+                "url": "https://api.github.com/repos/yiisoft/event-dispatcher/zipball/b2370dcea3f5b54c6f381c786a71f453267bfbed",
+                "reference": "b2370dcea3f5b54c6f381c786a71f453267bfbed",
                 "shasum": ""
             },
             "require": {
@@ -1064,7 +1998,9 @@
                 "psr/event-dispatcher-implementation": "1.0.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.4"
+                "infection/infection": "^0.16.3",
+                "phan/phan": "^3.0.2",
+                "phpunit/phpunit": "^9.2"
             },
             "type": "library",
             "extra": {
@@ -1088,7 +2024,24 @@
                 "event dispatcher",
                 "psr-14"
             ],
-            "time": "2019-12-06T16:39:34+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/event-dispatcher/issues?state=open",
+                "source": "https://github.com/yiisoft/event-dispatcher",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-14T11:18:43+00:00"
         },
         {
             "name": "yiisoft/factory",
@@ -1096,12 +2049,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/factory.git",
-                "reference": "fe91b50b87fc289f06374caad6a333868899e082"
+                "reference": "bd742a72b4709fb5b8da722a0009204c35d089e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/factory/zipball/fe91b50b87fc289f06374caad6a333868899e082",
-                "reference": "fe91b50b87fc289f06374caad6a333868899e082",
+                "url": "https://api.github.com/repos/yiisoft/factory/zipball/bd742a72b4709fb5b8da722a0009204c35d089e8",
+                "reference": "bd742a72b4709fb5b8da722a0009204c35d089e8",
                 "shasum": ""
             },
             "require": {
@@ -1133,7 +2086,24 @@
             "keywords": [
                 "factory"
             ],
-            "time": "2019-12-06T16:39:33+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/factory/issues",
+                "source": "https://github.com/yiisoft/factory",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-04-27T19:15:37+00:00"
         },
         {
             "name": "yiisoft/files",
@@ -1141,12 +2111,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/files.git",
-                "reference": "cbe424d48d4269e2105dfde510712c632f92a563"
+                "reference": "ee71f385bd1cb31d8cd40d6752efc15c66403cac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/files/zipball/cbe424d48d4269e2105dfde510712c632f92a563",
-                "reference": "cbe424d48d4269e2105dfde510712c632f92a563",
+                "url": "https://api.github.com/repos/yiisoft/files/zipball/ee71f385bd1cb31d8cd40d6752efc15c66403cac",
+                "reference": "ee71f385bd1cb31d8cd40d6752efc15c66403cac",
                 "shasum": ""
             },
             "require": {
@@ -1154,7 +2124,7 @@
                 "yiisoft/strings": "^3.0@dev"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.4"
+                "phpunit/phpunit": "^9.0"
             },
             "type": "library",
             "extra": {
@@ -1175,24 +2145,31 @@
             "keywords": [
                 "files"
             ],
-            "time": "2019-12-06T16:40:02+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/files/issues?state=open",
+                "source": "https://github.com/yiisoft/files",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "time": "2020-02-07T18:48:20+00:00"
         },
         {
             "name": "yiisoft/friendly-exception",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/friendly-exception.git",
-                "reference": "f96347eac87e925b0e5a03ba9294cb40bd069ff3"
+                "reference": "ea646b5a9dfce3d70aef1d7bbcda5387ac55a852"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/friendly-exception/zipball/f96347eac87e925b0e5a03ba9294cb40bd069ff3",
-                "reference": "f96347eac87e925b0e5a03ba9294cb40bd069ff3",
+                "url": "https://api.github.com/repos/yiisoft/friendly-exception/zipball/ea646b5a9dfce3d70aef1d7bbcda5387ac55a852",
+                "reference": "ea646b5a9dfce3d70aef1d7bbcda5387ac55a852",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.4"
+                "php": "^7.1"
             },
             "type": "library",
             "autoload": {
@@ -1212,7 +2189,24 @@
                 "exceptions",
                 "friendly"
             ],
-            "time": "2019-12-05T00:04:28+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/friendly-exception/issues?state=open",
+                "source": "https://github.com/yiisoft/friendly-exception",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-06T22:55:10+00:00"
         },
         {
             "name": "yiisoft/html",
@@ -1220,12 +2214,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/html.git",
-                "reference": "4ddb0d218d277ce4da2ab88b42355269fdd9e30f"
+                "reference": "d0707d221c8800420967709cce86b155f9350838"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/html/zipball/4ddb0d218d277ce4da2ab88b42355269fdd9e30f",
-                "reference": "4ddb0d218d277ce4da2ab88b42355269fdd9e30f",
+                "url": "https://api.github.com/repos/yiisoft/html/zipball/d0707d221c8800420967709cce86b155f9350838",
+                "reference": "d0707d221c8800420967709cce86b155f9350838",
                 "shasum": ""
             },
             "require": {
@@ -1235,7 +2229,7 @@
                 "yiisoft/strings": "^3.0@dev"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.4"
+                "phpunit/phpunit": "^9.0"
             },
             "type": "library",
             "extra": {
@@ -1257,7 +2251,84 @@
             "keywords": [
                 "html"
             ],
-            "time": "2019-12-06T16:40:04+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/html/issues?state=open",
+                "source": "https://github.com/yiisoft/html",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-04-27T20:15:37+00:00"
+        },
+        {
+            "name": "yiisoft/http",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/http.git",
+                "reference": "163ca1dfc680cf82430264e088ff2c542e2cc140"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/http/zipball/163ca1dfc680cf82430264e088ff2c542e2cc140",
+                "reference": "163ca1dfc680cf82430264e088ff2c542e2cc140",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4",
+                "psr/http-message": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Yiisoft\\Http\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "http",
+            "homepage": "https://www.yiiframework.com/",
+            "keywords": [
+                "http"
+            ],
+            "support": {
+                "forum": "https://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/http/issues?state=open",
+                "source": "https://github.com/yiisoft/http",
+                "wiki": "https://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-08T14:03:44+00:00"
         },
         {
             "name": "yiisoft/i18n",
@@ -1265,21 +2336,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/i18n.git",
-                "reference": "61ec9b3ae4c2344043b7189ea498eaaa38048774"
+                "reference": "c53aee80ca9f9ec540acbf0306d8a0a44e319438"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/i18n/zipball/61ec9b3ae4c2344043b7189ea498eaaa38048774",
-                "reference": "61ec9b3ae4c2344043b7189ea498eaaa38048774",
+                "url": "https://api.github.com/repos/yiisoft/i18n/zipball/c53aee80ca9f9ec540acbf0306d8a0a44e319438",
+                "reference": "c53aee80ca9f9ec540acbf0306d8a0a44e319438",
                 "shasum": ""
             },
             "require": {
-                "ext-intl": "*",
-                "php": "^7.4",
-                "psr/event-dispatcher": "1.0.0"
+                "php": "^7.4"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.4"
+                "phpunit/phpunit": "^9.0"
             },
             "type": "library",
             "extra": {
@@ -1304,20 +2373,37 @@
                 "internationalization",
                 "translation"
             ],
-            "time": "2019-12-06T16:39:50+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/i18n/issues?state=open",
+                "source": "https://github.com/yiisoft/i18n",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-02T15:34:26+00:00"
         },
         {
             "name": "yiisoft/injector",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/injector.git",
-                "reference": "82aa65fdb046ae4921b4c06b628a8839e603018b"
+                "reference": "c3902aff9325aca3c4b10fa3cb3a66e60e8002e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/injector/zipball/82aa65fdb046ae4921b4c06b628a8839e603018b",
-                "reference": "82aa65fdb046ae4921b4c06b628a8839e603018b",
+                "url": "https://api.github.com/repos/yiisoft/injector/zipball/c3902aff9325aca3c4b10fa3cb3a66e60e8002e0",
+                "reference": "c3902aff9325aca3c4b10fa3cb3a66e60e8002e0",
                 "shasum": ""
             },
             "require": {
@@ -1325,16 +2411,9 @@
                 "psr/container": "1.0.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.4",
-                "yiisoft/di": "^3.0@dev",
-                "yiisoft/factory": "^3.0@dev"
+                "phpunit/phpunit": "^9.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Yiisoft\\Injector\\": "src"
@@ -1344,7 +2423,7 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "description": "PSR-11 compatible injector. Executes a callable injecting dependencies from a given DI container.",
+            "description": "PSR-11 compatible injector. Executes a callable and makes an instances by injecting dependencies from a given DI container.",
             "homepage": "http://www.yiiframework.com/",
             "keywords": [
                 "PSR-11",
@@ -1353,7 +2432,24 @@
                 "injector",
                 "reflection"
             ],
-            "time": "2019-12-06T16:39:32+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/injector/issues?state=open",
+                "source": "https://github.com/yiisoft/injector",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-05-17T17:32:28+00:00"
         },
         {
             "name": "yiisoft/json",
@@ -1361,19 +2457,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/json.git",
-                "reference": "fedf3cffb2ccb771d813e7b3ca5a6a69966c734b"
+                "reference": "39f187b9c1b560ce47a4d7f41dd3ce5d24e8ba3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/json/zipball/fedf3cffb2ccb771d813e7b3ca5a6a69966c734b",
-                "reference": "fedf3cffb2ccb771d813e7b3ca5a6a69966c734b",
+                "url": "https://api.github.com/repos/yiisoft/json/zipball/39f187b9c1b560ce47a4d7f41dd3ce5d24e8ba3b",
+                "reference": "39f187b9c1b560ce47a4d7f41dd3ce5d24e8ba3b",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.4"
+                "phpunit/phpunit": "^9.0"
             },
             "type": "library",
             "extra": {
@@ -1395,7 +2491,14 @@
             "keywords": [
                 "json"
             ],
-            "time": "2019-12-06T16:40:05+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/json/issues?state=open",
+                "source": "https://github.com/yiisoft/json",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "time": "2020-02-07T18:51:44+00:00"
         },
         {
             "name": "yiisoft/log",
@@ -1403,12 +2506,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/log.git",
-                "reference": "82e6a139250d26a6a22fe379095e638ce64ef7cd"
+                "reference": "b718ffdbf3c2f44420b09f2a370a93d707338e24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/log/zipball/82e6a139250d26a6a22fe379095e638ce64ef7cd",
-                "reference": "82e6a139250d26a6a22fe379095e638ce64ef7cd",
+                "url": "https://api.github.com/repos/yiisoft/log/zipball/b718ffdbf3c2f44420b09f2a370a93d707338e24",
+                "reference": "b718ffdbf3c2f44420b09f2a370a93d707338e24",
                 "shasum": ""
             },
             "require": {
@@ -1421,7 +2524,8 @@
                 "psr/log-implementation": "1.0.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.4"
+                "infection/infection": "^0.16.3",
+                "phpunit/phpunit": "^9.2"
             },
             "suggest": {
                 "yiisoft/log-target-db": "version ^3.0 for saving logs to the database",
@@ -1452,7 +2556,24 @@
                 "logger",
                 "yii"
             ],
-            "time": "2019-12-06T16:39:46+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/log/issues",
+                "source": "https://github.com/yiisoft/log",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-09T15:23:01+00:00"
         },
         {
             "name": "yiisoft/log-target-file",
@@ -1460,12 +2581,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/log-target-file.git",
-                "reference": "3450891b612e0efedd4b832fbce56ee25c9f182c"
+                "reference": "8eba00147566b588465b4a026e78868f08153f0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/log-target-file/zipball/3450891b612e0efedd4b832fbce56ee25c9f182c",
-                "reference": "3450891b612e0efedd4b832fbce56ee25c9f182c",
+                "url": "https://api.github.com/repos/yiisoft/log-target-file/zipball/8eba00147566b588465b4a026e78868f08153f0f",
+                "reference": "8eba00147566b588465b4a026e78868f08153f0f",
                 "shasum": ""
             },
             "require": {
@@ -1474,7 +2595,7 @@
                 "yiisoft/log": "^3.0@dev"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.4"
+                "phpunit/phpunit": "^9.0"
             },
             "type": "library",
             "extra": {
@@ -1499,7 +2620,14 @@
                 "logger",
                 "yii"
             ],
-            "time": "2019-12-06T16:39:48+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/log-target-file/issues",
+                "source": "https://github.com/yiisoft/log-target-file",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "time": "2020-02-07T18:42:49+00:00"
         },
         {
             "name": "yiisoft/network-utilities",
@@ -1507,20 +2635,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/network-utilities.git",
-                "reference": "4837537ae0f962cae5263ae459d14a54e2cb3575"
+                "reference": "8ead7624e78eb3abcec38967015dbc50eb37aa19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/network-utilities/zipball/4837537ae0f962cae5263ae459d14a54e2cb3575",
-                "reference": "4837537ae0f962cae5263ae459d14a54e2cb3575",
+                "url": "https://api.github.com/repos/yiisoft/network-utilities/zipball/8ead7624e78eb3abcec38967015dbc50eb37aa19",
+                "reference": "8ead7624e78eb3abcec38967015dbc50eb37aa19",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4"
             },
             "require-dev": {
-                "phan/phan": "^2.2",
-                "phpunit/phpunit": "^8.4"
+                "phan/phan": "^3.0",
+                "phpunit/phpunit": "^9.0"
             },
             "type": "library",
             "extra": {
@@ -1544,7 +2672,24 @@
                 "mask",
                 "network"
             ],
-            "time": "2019-12-06T16:39:39+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/network-utilities/issues?state=open",
+                "source": "https://github.com/yiisoft/network-utilities",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-05-15T19:07:32+00:00"
         },
         {
             "name": "yiisoft/router",
@@ -1552,12 +2697,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/router.git",
-                "reference": "f1358e5da67ece5f47ce8a796442bcd7e2eed6dc"
+                "reference": "09306fddd198f0228e2ca1f97ef5150d3bb9be30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/router/zipball/f1358e5da67ece5f47ce8a796442bcd7e2eed6dc",
-                "reference": "f1358e5da67ece5f47ce8a796442bcd7e2eed6dc",
+                "url": "https://api.github.com/repos/yiisoft/router/zipball/09306fddd198f0228e2ca1f97ef5150d3bb9be30",
+                "reference": "09306fddd198f0228e2ca1f97ef5150d3bb9be30",
                 "shasum": ""
             },
             "require": {
@@ -1565,11 +2710,13 @@
                 "psr/container": "^1.0",
                 "psr/http-message": "^1.0",
                 "psr/http-server-handler": "^1.0",
-                "psr/http-server-middleware": "^1.0"
+                "psr/http-server-middleware": "^1.0",
+                "yiisoft/http": "1.0.x-dev",
+                "yiisoft/injector": "^1.0"
             },
             "require-dev": {
                 "nyholm/psr7": "^1.0",
-                "phpunit/phpunit": "^8.4",
+                "phpunit/phpunit": "^9.0",
                 "psr/http-factory": "^1.0"
             },
             "type": "library",
@@ -1594,7 +2741,24 @@
                 "router",
                 "web"
             ],
-            "time": "2019-12-26T14:21:35+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/router/issues?state=open",
+                "source": "https://github.com/yiisoft/router",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-06T19:51:03+00:00"
         },
         {
             "name": "yiisoft/router-fastroute",
@@ -1602,12 +2766,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/router-fastroute.git",
-                "reference": "c5a3b169377a60c595d31c6be1c779eda012a2d7"
+                "reference": "1015e151765b2b2e5a03c016411b0b4183747a81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/router-fastroute/zipball/c5a3b169377a60c595d31c6be1c779eda012a2d7",
-                "reference": "c5a3b169377a60c595d31c6be1c779eda012a2d7",
+                "url": "https://api.github.com/repos/yiisoft/router-fastroute/zipball/1015e151765b2b2e5a03c016411b0b4183747a81",
+                "reference": "1015e151765b2b2e5a03c016411b0b4183747a81",
                 "shasum": ""
             },
             "require": {
@@ -1616,8 +2780,10 @@
                 "yiisoft/router": "^3.0@dev"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.4",
-                "psr/container": "1.0.0"
+                "nyholm/psr7": "^1.2",
+                "phpunit/phpunit": "^9.0",
+                "psr/container": "1.0.0",
+                "psr/simple-cache": "~1.0.0"
             },
             "type": "library",
             "extra": {
@@ -1640,7 +2806,24 @@
                 "FastRoute",
                 "router"
             ],
-            "time": "2019-12-23T15:28:55+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/router-fastroute/issues?state=open",
+                "source": "https://github.com/yiisoft/router-fastroute",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-03-23T13:57:53+00:00"
         },
         {
             "name": "yiisoft/security",
@@ -1648,12 +2831,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/security.git",
-                "reference": "e9278cea566db0f95474518cf7861a13dc7b801f"
+                "reference": "784e696eb862b732c02bb147b3f7948e8fefef28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/security/zipball/e9278cea566db0f95474518cf7861a13dc7b801f",
-                "reference": "e9278cea566db0f95474518cf7861a13dc7b801f",
+                "url": "https://api.github.com/repos/yiisoft/security/zipball/784e696eb862b732c02bb147b3f7948e8fefef28",
+                "reference": "784e696eb862b732c02bb147b3f7948e8fefef28",
                 "shasum": ""
             },
             "require": {
@@ -1661,7 +2844,7 @@
                 "yiisoft/strings": "^3.0@dev"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.4"
+                "phpunit/phpunit": "^9.0"
             },
             "type": "library",
             "extra": {
@@ -1683,7 +2866,74 @@
             "keywords": [
                 "security"
             ],
-            "time": "2019-12-06T16:39:35+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/security/issues?state=open",
+                "source": "https://github.com/yiisoft/security",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-04-03T23:27:56+00:00"
+        },
+        {
+            "name": "yiisoft/serializer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/serializer.git",
+                "reference": "89200550e0f4cdeeb07505ebf2c22c1f467f064d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/serializer/zipball/89200550e0f4cdeeb07505ebf2c22c1f467f064d",
+                "reference": "89200550e0f4cdeeb07505ebf2c22c1f467f064d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Yiisoft\\Serializer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Yii Serializer Library",
+            "homepage": "http://www.yiiframework.com/",
+            "keywords": [
+                "serializer",
+                "yii"
+            ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/serializer/issues?state=open",
+                "source": "https://github.com/yiisoft/serializer",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "time": "2020-02-07T18:49:07+00:00"
         },
         {
             "name": "yiisoft/strings",
@@ -1691,12 +2941,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/strings.git",
-                "reference": "7b78db1c71cccf2ba5e1256bf559c88bfc52b1b7"
+                "reference": "05b2dd0a381739ff38263a944d9f353103596dd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/strings/zipball/7b78db1c71cccf2ba5e1256bf559c88bfc52b1b7",
-                "reference": "7b78db1c71cccf2ba5e1256bf559c88bfc52b1b7",
+                "url": "https://api.github.com/repos/yiisoft/strings/zipball/05b2dd0a381739ff38263a944d9f353103596dd8",
+                "reference": "05b2dd0a381739ff38263a944d9f353103596dd8",
                 "shasum": ""
             },
             "require": {
@@ -1729,7 +2979,24 @@
                 "string",
                 "yii"
             ],
-            "time": "2019-12-27T11:23:35+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/strings/issues",
+                "source": "https://github.com/yiisoft/strings",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-03-27T12:21:55+00:00"
         },
         {
             "name": "yiisoft/validator",
@@ -1737,24 +3004,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/validator.git",
-                "reference": "fa2f0cdf03a6bacaf49673ab963f5b251bb7e09c"
+                "reference": "8ea83f819b04beee9b3f17a90e6a58ac0cd120a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/validator/zipball/fa2f0cdf03a6bacaf49673ab963f5b251bb7e09c",
-                "reference": "fa2f0cdf03a6bacaf49673ab963f5b251bb7e09c",
+                "url": "https://api.github.com/repos/yiisoft/validator/zipball/8ea83f819b04beee9b3f17a90e6a58ac0cd120a4",
+                "reference": "8ea83f819b04beee9b3f17a90e6a58ac0cd120a4",
                 "shasum": ""
             },
             "require": {
-                "ext-intl": "*",
+                "ext-json": "*",
                 "ext-mbstring": "*",
                 "php": "^7.4",
                 "yiisoft/arrays": "dev-master",
+                "yiisoft/i18n": "dev-master",
                 "yiisoft/network-utilities": "dev-master",
                 "yiisoft/strings": "dev-master"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.4"
+                "phpunit/phpunit": "^9.0"
             },
             "type": "library",
             "extra": {
@@ -1785,7 +3053,24 @@
                 "validation",
                 "validator"
             ],
-            "time": "2019-12-26T13:48:10+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/validator/issues?state=open",
+                "source": "https://github.com/yiisoft/validator",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-04-22T23:51:35+00:00"
         },
         {
             "name": "yiisoft/var-dumper",
@@ -1793,21 +3078,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/var-dumper.git",
-                "reference": "de67f2077b548a07f2c3bba83f63101ab9d90513"
+                "reference": "54add2d37a7081571e02d91a73e6521a096122ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/var-dumper/zipball/de67f2077b548a07f2c3bba83f63101ab9d90513",
-                "reference": "de67f2077b548a07f2c3bba83f63101ab9d90513",
+                "url": "https://api.github.com/repos/yiisoft/var-dumper/zipball/54add2d37a7081571e02d91a73e6521a096122ca",
+                "reference": "54add2d37a7081571e02d91a73e6521a096122ca",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
                 "php": "^7.4",
                 "yiisoft/arrays": "^3.0@dev"
             },
             "require-dev": {
-                "hiqdev/composer-config-plugin": "^1.0@dev",
-                "phpunit/phpunit": "^8.4"
+                "phpunit/phpunit": "^9.0",
+                "yiisoft/composer-config-plugin": "^1.0@dev"
             },
             "type": "library",
             "extra": {
@@ -1832,7 +3118,24 @@
                 "var-dumper",
                 "yii"
             ],
-            "time": "2019-12-06T16:40:03+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/var-dumper/issues",
+                "source": "https://github.com/yiisoft/var-dumper",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-03-22T19:02:30+00:00"
         },
         {
             "name": "yiisoft/view",
@@ -1840,12 +3143,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/view.git",
-                "reference": "fa61d35f016038d9ad12c8d80994413596fed1c2"
+                "reference": "75159b0de3742513854fc5ee470ed2f7bd971116"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/view/zipball/fa61d35f016038d9ad12c8d80994413596fed1c2",
-                "reference": "fa61d35f016038d9ad12c8d80994413596fed1c2",
+                "url": "https://api.github.com/repos/yiisoft/view/zipball/75159b0de3742513854fc5ee470ed2f7bd971116",
+                "reference": "75159b0de3742513854fc5ee470ed2f7bd971116",
                 "shasum": ""
             },
             "require": {
@@ -1855,18 +3158,17 @@
                 "psr/event-dispatcher": "1.0.0",
                 "psr/event-dispatcher-implementation": "1.0.0",
                 "psr/log": "^1.1",
-                "yiisoft/aliases": "^3.0@dev",
+                "yiisoft/aliases": "^1.0",
                 "yiisoft/arrays": "^3.0@dev",
                 "yiisoft/files": "^3.0@dev",
                 "yiisoft/html": "^3.0@dev",
                 "yiisoft/i18n": "^3.0@dev",
-                "yiisoft/json": "^3.0@dev",
-                "yiisoft/var-dumper": "^3.0@dev"
+                "yiisoft/json": "^3.0@dev"
             },
             "require-dev": {
-                "hiqdev/composer-config-plugin": "^1.0@dev",
-                "phpunit/phpunit": "^8.4",
+                "phpunit/phpunit": "^9.0",
                 "yiisoft/cache": "^3.0@dev",
+                "yiisoft/composer-config-plugin": "^1.0@dev",
                 "yiisoft/di": "^3.0@dev",
                 "yiisoft/event-dispatcher": "^3.0@dev",
                 "yiisoft/log": "^3.0@dev"
@@ -1883,9 +3185,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Yiisoft\\View\\": "src/View",
-                    "Yiisoft\\Widget\\": "src/Widget",
-                    "Yiisoft\\Asset\\": "src/Asset"
+                    "Yiisoft\\View\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1898,7 +3198,110 @@
                 "view",
                 "yii"
             ],
-            "time": "2019-12-24T10:23:25+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/view/issues",
+                "source": "https://github.com/yiisoft/view",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-15T06:06:58+00:00"
+        },
+        {
+            "name": "yiisoft/yii-console",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii-console.git",
+                "reference": "7f01c83edd15313cfc85cfe9ee05c8e5ae2a132d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii-console/zipball/7f01c83edd15313cfc85cfe9ee05c8e5ae2a132d",
+                "reference": "7f01c83edd15313cfc85cfe9ee05c8e5ae2a132d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4",
+                "psr/container": "1.0.0",
+                "psr/container-implementation": "1.0.0",
+                "symfony/console": "^5.0|^4.0",
+                "symfony/event-dispatcher-contracts": "^2.0",
+                "yiisoft/composer-config-plugin": "^1.0@dev",
+                "yiisoft/di": "@dev",
+                "yiisoft/event-dispatcher": "^3.0@dev",
+                "yiisoft/friendly-exception": "^1.0",
+                "yiisoft/injector": "^1.0"
+            },
+            "require-dev": {
+                "phan/phan": "^3.0.2",
+                "phpunit/phpunit": "^9.2"
+            },
+            "bin": [
+                "bin/yii"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                },
+                "config-plugin": {
+                    "params": "config/params.php",
+                    "console": "config/console.php",
+                    "providers-console": "config/providers-console.php",
+                    "events-console": "config/events-console.php"
+                },
+                "config-plugin-dev": {
+                    "tests": [
+                        "$console",
+                        "$providers-console",
+                        "config/tests.php"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Yiisoft\\Yii\\Console\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Yii Framework Console",
+            "homepage": "http://www.yiiframework.com/",
+            "keywords": [
+                "console",
+                "yii"
+            ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii-console/issues",
+                "source": "https://github.com/yiisoft/yii-console",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-14T20:03:11+00:00"
         },
         {
             "name": "yiisoft/yii-web",
@@ -1906,20 +3309,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii-web.git",
-                "reference": "93a4757e5c8fad0f5e6e7587906849ffd72853f1"
+                "reference": "dd6497e6e21b6629e60c60fee802c82f7fd720b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii-web/zipball/93a4757e5c8fad0f5e6e7587906849ffd72853f1",
-                "reference": "93a4757e5c8fad0f5e6e7587906849ffd72853f1",
+                "url": "https://api.github.com/repos/yiisoft/yii-web/zipball/dd6497e6e21b6629e60c60fee802c82f7fd720b9",
+                "reference": "dd6497e6e21b6629e60c60fee802c82f7fd720b9",
                 "shasum": ""
             },
             "require": {
                 "alexkart/curl-builder": "^1.0",
+                "ext-dom": "*",
                 "ext-json": "*",
                 "php": "^7.4",
                 "psr/container": "1.0.0",
                 "psr/container-implementation": "1.0.0",
+                "psr/event-dispatcher": "^1.0",
                 "psr/http-factory": "^1.0",
                 "psr/http-factory-implementation": "1.0",
                 "psr/http-message": "^1.0",
@@ -1927,36 +3332,30 @@
                 "psr/http-server-handler": "^1.0",
                 "psr/http-server-middleware": "^1.0",
                 "yiisoft/access": "^3.0@dev",
-                "yiisoft/aliases": "^3.0@dev",
-                "yiisoft/arrays": "^3.0@dev",
+                "yiisoft/aliases": "^1.0",
                 "yiisoft/auth": "^3.0@dev",
-                "yiisoft/friendly-exception": "dev-master",
-                "yiisoft/injector": "^3.0@dev",
+                "yiisoft/event-dispatcher": "^3.0@dev",
+                "yiisoft/friendly-exception": "^1.0",
+                "yiisoft/http": "1.0.x-dev",
+                "yiisoft/injector": "^1.0",
                 "yiisoft/network-utilities": "^3.0@dev",
                 "yiisoft/router": "^3.0@dev",
                 "yiisoft/security": "^3.0@dev",
-                "yiisoft/strings": "^3.0@dev",
+                "yiisoft/serializer": "^3.0@dev",
                 "yiisoft/validator": "^3.0@dev"
             },
             "provide": {
                 "psr/http-message-implementation": "1.0"
             },
             "require-dev": {
-                "cebe/indent": "~1.0.2",
-                "ezyang/htmlpurifier": "~4.6",
-                "friendsofphp/php-cs-fixer": "^2.2",
-                "hiqdev/composer-config-plugin": "^1.0@dev",
+                "infection/infection": "^0.16.3",
                 "nyholm/psr7": "^1.0",
-                "phpunit/phpunit": "^8.4",
+                "phpunit/phpunit": "^9.2.0",
                 "yiisoft/cache": "^3.0@dev",
+                "yiisoft/composer-config-plugin": "^1.0@dev",
                 "yiisoft/di": "^3.0@dev",
-                "yiisoft/factory": "^3.0@dev",
                 "yiisoft/log": "^3.0@dev",
-                "yiisoft/router-fastroute": "^3.0@dev",
-                "yiisoft/var-dumper": "^3.0@dev"
-            },
-            "suggest": {
-                "yiisoft/yii2-coding-standards": "you can use this package to check for code style issues when contributing to yii"
+                "yiisoft/router-fastroute": "^3.0@dev"
             },
             "type": "library",
             "extra": {
@@ -1984,14 +3383,30 @@
                 "framework",
                 "yii"
             ],
-            "time": "2019-12-19T08:36:03+00:00"
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii-web",
+                "source": "https://github.com/yiisoft/yii-web",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-08T16:16:51+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "hiqdev/composer-config-plugin": 20,
         "nyholm/psr7": 20,
         "yiisoft/di": 20,
         "yiisoft/event-dispatcher": 20,
@@ -2000,12 +3415,15 @@
         "yiisoft/router": 20,
         "yiisoft/router-fastroute": 20,
         "yiisoft/view": 20,
-        "yiisoft/yii-web": 20
+        "yiisoft/yii-console": 20,
+        "yiisoft/yii-web": 20,
+        "yiisoft/composer-config-plugin": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^7.4"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }

@@ -2,15 +2,14 @@
 
 namespace App\Controller;
 
-use App\Controller;
 use cebe\markdown\GithubMarkdown;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Yiisoft\Aliases\Aliases;
 
-class MarkdownController extends Controller
+class MarkdownController extends AbstractController
 {
-    protected function getId(): string
+    protected function name(): string
     {
         return 'markdown';
     }
@@ -28,15 +27,13 @@ class MarkdownController extends Controller
             return $response->withStatus(404);
         }
 
-        $output = $this->render(
+        return $this->render(
             'content',
             [
+                'csrf' => $request->getAttribute('csrf_token'),
                 'content' => $content,
             ]
         );
-
-        $response->getBody()->write($output);
-        return $response;
     }
 
     private function renderMarkdownFile(string $path): ?string

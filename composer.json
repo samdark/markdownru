@@ -10,10 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": "^7.4",
         "cebe/markdown": "~1.2.1",
-        "hiqdev/composer-config-plugin": "^1.0@dev",
         "nyholm/psr7": "^1.0@dev",
         "yiisoft/di": "dev-master",
         "yiisoft/event-dispatcher": "^3.0@dev",
@@ -22,7 +22,9 @@
         "yiisoft/router": "^3.0@dev",
         "yiisoft/router-fastroute": "^3.0@dev",
         "yiisoft/view": "^3.0@dev",
-        "yiisoft/yii-web": "^3.0@dev"
+        "yiisoft/yii-console": "3.0.x-dev",
+        "yiisoft/yii-web": "^3.0@dev",
+        "yiisoft/composer-config-plugin": "^1.0@dev"
     },
     "autoload": {
         "psr-4": {
@@ -30,21 +32,40 @@
         }
     },
     "extra": {
-         "config-plugin": {
-             "common": "config/common.php",
-             "params": [
-                 "config/params.php",
-                 "?config/params-local.php"
-             ],
-             "web": [
-                 "$common",
-                 "config/web.php"
-             ],
-             "console": [
-                 "$common",
-                 "config/console.php"
-             ]
-         }
+        "config-plugin": {
+            "common": "config/common.php",
+            "params": [
+                "config/params.php",
+                "?config/params-local.php"
+            ],
+            "web": [
+                "$common",
+                "config/web.php"
+            ],
+            "console": [
+                "$common",
+                "config/console.php"
+            ],
+            "providers": "config/providers.php",
+            "providers-web": [
+                "$providers",
+                "config/providers-web.php"
+            ],
+            "providers-console": [
+                "$providers",
+                "config/providers-console.php"
+            ],
+            "events": "config/events.php",
+            "events-web": [
+                "$events",
+                "config/events-web.php"
+            ],
+            "events-console": [
+                "$events",
+                "config/events-console.php"
+            ],
+            "routes": "config/routes.php"
+        }
      },
     "config": {
         "sort-packages": true

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/vendor/alexkart/curl-builder" />
+      <path value="$PROJECT_DIR$/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/factory" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/di" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/router" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/injector" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/access" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/auth" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/network-utilities" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/aliases" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/arrays" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/validator" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/strings" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/security" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii-web" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/router-fastroute" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/friendly-exception" />
+      <path value="$PROJECT_DIR$/vendor/cebe/markdown" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/vendor/riimu/kit-phpencoder" />
+      <path value="$PROJECT_DIR$/vendor/hiqdev/composer-config-plugin" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/hiqdev/composer-config-plugin-output" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/files" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/log-target-file" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/i18n" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/view" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/json" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/html" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/composer-config-plugin" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/serializer" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/composer-config-plugin-output" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/http" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii-console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
+</project>

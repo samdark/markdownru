@@ -1,7 +1,4 @@
 <?php
-
-use App\Asset\AppAsset;
-
 /**
  * @var \Yiisoft\Router\UrlGeneratorInterface $urlGenerator
  * @var \Yiisoft\View\WebView $this
@@ -22,12 +19,12 @@ $this->beginPage();
 </head>
 <body>
     <?php $this->beginBody() ?>
-    <a class="logo" href="<?= $urlGenerator->generate('site/content') ?>"><img src="/logo.svg"> </a>
+    <a class="logo" href="<?= $urlGenerator->generate('site/content') ?>"><img src="/logo.svg" alt="Markdown"> </a>
 
     <?= $content ?>
 
     <footer>
-        <p>© 2019 <a href="https://rmcreative.ru/">Александр Макаров</a>.</p>
+        <p>© 2020 <a href="https://rmcreative.ru/">Александр Макаров</a>.</p>
         <p>
             Сайт работает на <a href="https://www.yiiframework.com/">Yii 3</a>. <br>
             <a href="https://github.com/samdark/markdownru">Исходный код доступен на GitHub</a>.

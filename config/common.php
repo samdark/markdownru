@@ -1,29 +1,21 @@
 <?php
 
-use App\Factory\LoggerFactory;
-use Psr\Log\LoggerInterface;
-use Yiisoft\Cache\ArrayCache;
-use Yiisoft\Cache\Cache;
-use Yiisoft\Cache\CacheInterface;
-use Yiisoft\Log\Target\File\FileRotator;
-use Yiisoft\Log\Target\File\FileRotatorInterface;
+declare(strict_types=1);
+
+use Psr\Container\ContainerInterface;
+use Yiisoft\Aliases\Aliases;
 
 /**
  * @var array $params
  */
 
 return [
-    CacheInterface::class => [
-        '__class' => Cache::class,
-        'handler' => [
-            '__class' => ArrayCache::class,
-        ],
-    ],
-    LoggerInterface::class => new LoggerFactory(),
-    FileRotatorInterface::class => [
-        '__class' => FileRotator::class,
-        '__construct()' => [
-            10
-        ]
+    ContainerInterface::class => static function (ContainerInterface $container) {
+        return $container;
+    },
+
+    Aliases::class => [
+        '__class' => Aliases::class,
+        '__construct()' => [$params['aliases']],
     ],
 ];
