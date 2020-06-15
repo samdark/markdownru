@@ -11,6 +11,9 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "scripts": {
+        "serve": "yii serve --router=config/serve.php"
+    },
     "require": {
         "php": "^7.4",
         "cebe/markdown": "~1.2.1",
